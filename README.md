@@ -1,6 +1,6 @@
 
 <h1 align="center" >Home Blog<h1>
-<h2 align="center">transformei um layout do figma para código para fixar meu conhecimentos na área</h2>
+<h2 align="center">transformei um layout do figma em código para fixar meu conhecimentos na área</h2>
 
 <h2 color="blue" align="center">
 <a href="https://vitorhrd.github.io/Simple-Home-Blog/">🔗 Site</a>
