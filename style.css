@@ -158,4 +158,125 @@
   li:hover{
       opacity: 1;
   }
+  @media (max-width:900px){
+      header{
+          width: 100vw;
+          height: 90vh;
+      }
+      #navegation{
+          display: block;
+      }
+      main{
+          width: 100vw;
+      }
+      #logo{
+          display: block;
+          margin: auto;
+          margin-top:0;
+      }
+      ul{
+          display: flex;
+          justify-content: space-around;
+          width: 500px;
+          align-items: center;
+          margin: auto;
+          margin-bottom: 15px;
+          margin-top: 15px;
+      }
+      form{
+        justify-content: center;
+      }
+      #section-header{
+          width: 69vw;
+          justify-content: space-around; 
+      }
+    h1{
+          font-size: 20px;
+          margin-bottom: 5px;
+          margin-left: 0%;
+          display: inline-block;
+      }
+      p{
+          font-size: 14px;
+          display: inline-block;
+      }
+      h2{
+          font-size: 18px;
+          display: inline-block;
+      }
+
+  #input-text{
+         padding: 10px 15px;
+     }
+      #text-header{
+          width: 50%;
+          justify-content: center;
+      }
+      #first-p{
+          margin: 0;
+          width: 80vw;
+      }
+      #img-header{
+          width: 230px;
+          margin: 0;
+      }
+      #div-img{
+          display: block;
+          width: 10vw;
+      }
+      .second-img{
+          width: 160px;
+          display: block;
+      }
+
+      #first-img{
+          display: block;
+          margin: auto;
+          padding: 0%;
+          width: 400px;
+      }
+      #first-section{
+          display: block;
+          width: 95%;
+      }
+      .text-card{
+        width: 80vw;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .text-p{
+        text-align: center;
+    }
+  }
+  @media (max-width:1200px){
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 18px;
+        display: inline-block;
+    }
+    #img-header{
+        width: 350px;
+        margin: 0;
+    }
+    .second-img{
+        width: 200px;
+        
+    }
+
+ #first-img{
+     width: 300px;
+ }
+}
+@media (max-width:500px){
+    #img-header{
+        width: 200px;
+    }
+}
   
