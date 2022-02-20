@@ -231,14 +231,13 @@
 
       #first-img{
           display: block;
-          margin: auto;
           padding: 0%;
-          width: 400px;
+          width: 350px;
       }
       #first-section{
           display: flex;
           flex-direction: column; 
-          width: 80vw;
+          align-items: flex-start;
           
       }
       .text-card{
@@ -273,15 +272,52 @@
     }
 
  #first-img{
-     width: 300px;
+     width: 350px;
+     padding-bottom: 20px;
  }
 }
 @media (max-width:500px){
+    h1{
+        font-size: 28px;
+    }
     #img-header{
         width: 250px;
     }
     ul{
         width: 100px;
     }
+    header{
+        width: 100vw;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #second-section{
+        display: block;
+        margin: auto;
+    }
+    .second-img{
+        display: block;
+    }
+    #img-header{
+        display: none;
+    }
+    #text-header{
+        width: 60%;
+        
+    }
+    #section-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 110%;
+    }
+    #p-header{
+
+        font-size: 18px;
+        margin-bottom: 30px;
+   }
 }
   
