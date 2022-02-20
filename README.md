@@ -15,7 +15,7 @@
  
 <h1 >🚀 Status do Projeto </h1>
  
- <p > 🚀  finalizado 🚀 </p>
+ <p >  finalizando  .... </p>
  
  
  <p align="center">Feito por Vitor Reis</p>
