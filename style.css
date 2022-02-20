@@ -160,14 +160,14 @@
   }
   @media (max-width:900px){
       header{
-          width: 100vw;
+          width: 120vw;
           height: 90vh;
       }
       #navegation{
           display: block;
       }
       main{
-          width: 100vw;
+          width: 120vw;
       }
       #logo{
           display: block;
@@ -187,7 +187,7 @@
         justify-content: center;
       }
       #section-header{
-          width: 69vw;
+          width: 80vw;
           justify-content: space-around; 
       }
     h1{
@@ -236,8 +236,10 @@
           width: 400px;
       }
       #first-section{
-          display: block;
-          width: 95%;
+          display: flex;
+          flex-direction: column; 
+          width: 80vw;
+          
       }
       .text-card{
         width: 80vw;
@@ -276,7 +278,10 @@
 }
 @media (max-width:500px){
     #img-header{
-        width: 200px;
+        width: 250px;
+    }
+    ul{
+        width: 100px;
     }
 }
   
